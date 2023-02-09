@@ -1,0 +1,38 @@
+.title {
+	font-family: fantasy;
+	color: #244022;
+	font-size: 90px;
+	text-align: center;
+}
+
+.FunFacts {
+	color: #2b452a;
+
+}
+
+ul {color: #374f36 ;
+	font-size: 20px ;
+}
+
+.LifeCycle {
+	color: #2b452a;
+}
+
+ol {color: #374f36 ;
+	font-size: 20px ;}
+
+.Habitat {
+	color: #2b452a;
+}
+
+p{color: #374f36 ;
+	font-size: 20px ;
+}
+
+.Media {
+	color: #2b452a;
+}
+
+.Cites {
+	color: #2b452a;
+}
