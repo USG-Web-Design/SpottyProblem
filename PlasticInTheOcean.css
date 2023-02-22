@@ -1,0 +1,46 @@
+.title {
+	font-family: Marker Felt; 
+	text-align: center; 
+	font-size: 120; color: #093C5C;
+}
+
+.SadFacts {
+	font-family: American Typewriter; font-size: 60; color: 0D496F;
+
+}
+
+ul {
+	font-size: 30; color: 125F8F;
+}
+
+.Route {
+	font-family: American Typewriter; font-size: 60; color: 0D496F;
+}
+
+
+
+.Progression {
+	font-family: American Typewriter; font-size: 60; color: 0D496F;
+}
+
+p {
+	font-size: 25; color: 125F8F;
+}
+
+.Media {
+	font-family: American Typewriter; font-size: 60; color: 0D496F;
+}
+
+.dropdown {
+	font-family: American Typewriter; font-size: 40; color: 0D496F; 
+}
+
+.dropdown-content {
+	display: none; font-size: 25; color: 125F8F;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
