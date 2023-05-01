@@ -27,10 +27,10 @@
 
 		<h2>What music do you listen more?</h2>
 		<input type="radio" name="check2" id="day2">
-		<label for= "day2">Kpop</label>
+		<label for= "day2">pop music</label>
 		<br>
 		<input type="radio" name="check2" id="dorm2">
-		<label for= "dorm2">pop music</label>
+		<label for= "dorm2">Kpop</label>
 
 		<h2>Do you care about your academics more than average?</h2>
 		<input type="radio" name="check3" id="day3">
@@ -52,13 +52,16 @@
 		<br>
 		<input type="radio" name="check5" id="day5">
 		<label for= "day5">4-7 days</label>
+		<br>
+		<input type="radio" name="check5" id="NA">
+		<label for= "day5">I don't drive</label>
 
 		<h2>Do you feel homesick? (not counting summer)</h2>
 		<input type="radio" name="check6" id="day6">
-		<label for= "day6">Yes</label>
+		<label for= "day6">No</label>
 		<br>
 		<input type="radio" name="check6" id="dorm6">
-		<label for= "dorm6">No</label>
+		<label for= "dorm6">Yes</label>
 
 		<h2>Where do you shop for groceries mostly?</h2>
 		<input type="radio" name="check7" id="day7">
@@ -157,18 +160,13 @@
 		if (document.getElementById("dorm8").checked) {
 			outcomeDorm = outcomeDorm + 1;}
 
-		if (document.getElementById("dorm9").checked) {
-			outcomeDorm = outcomeDorm + 1;}
 
-		if (document.getElementById("dorm10").checked) {
-			outcomeDorm = outcomeDorm + 1;}
-
-		if (document.getElementById("dorm11").checked) {
-			outcomeDorm = outcomeDorm + 1;}
-
-		window.alert("working")
-		response = "You are a day student" ;
-
+		if (outcomeDay == outcomeDorm) {response = "You could both be a day and dorm student";}
+		if (outcomeDay > outcomeDorm) {response = "You are most likely and destined to be a day student";}
+		if (outcomeDay < outcomeDorm) {response = "You are most likely and destined to be a dorm student";}
+		
+		
+		window.alert("yup")
 		document.getElementById("response").innerHTML = response;
 
 		
