@@ -1,0 +1,118 @@
+<html>
+	<button onclick="Tok();"> <img src="Tokyo.jpeg"> </button>
+	<br>
+	<button onclick="Lon()"> <img src="London.jpeg"> </button>
+	<br>
+	<button onclick="NY ()"> <img src="NYC.jpeg"> </button>
+	<br>
+ 
+ <p id="response"> It's May 5th 11:43 </p>
+ <script type="text/javascript">
+
+
+
+ function Tok () {
+
+ 	var Hour = 11;
+ 	var Min = 50;
+ 	var Day = 5;
+ 	var Month = 5;
+ 	var Year = 2023;
+
+ 	Hour = Hour + 16;
+
+ if (Month == 1) { Month = "January"}
+ if (Month == 2) { Month = "February"}  
+ if (Month == 3) { Month = "March"} 
+ if (Month == 4) { Month = "April"} 
+ if (Month == 5) { Month = "May"} 
+ if (Month == 6) { Month = "June"} 
+ if (Month == 7) { Month = "July"} 
+ if (Month == 8) { Month = "August"} 
+if (Month == 9) { Month = "September"} 
+if (Month == 10) { Month = "October"} 
+if (Month == 11) { Month = "November"} 
+if (Month == 12) { Month = "December"} 
+if (Month > 12) {Month = Month-11}
+
+ 	if (Hour > 23) {
+ 		Hour = Hour-24;
+ 		Day =  Day + 1;}
+
+	response = "It's " + Month + " " + Day + "th " + Hour + ":"+  Min;
+
+	document.getElementById("response").innerHTML = response;
+ }
+
+ function Lon () {
+
+ 	var Hour = 12;
+ 	var Min = 41;
+ 	var Day = 5;
+ 	var Month = 5;
+ 	var Year = 2023;
+
+ 	Hour = Hour + 8;
+
+ if (Month == 1) { Month = "January"}
+ if (Month == 2) { Month = "February"}  
+ if (Month == 3) { Month = "March"} 
+ if (Month == 4) { Month = "April"} 
+ if (Month == 5) { Month = "May"} 
+ if (Month == 6) { Month = "June"} 
+ if (Month == 7) { Month = "July"} 
+ if (Month == 8) { Month = "August"} 
+if (Month == 9) { Month = "September"} 
+if (Month == 10) { Month = "October"} 
+if (Month == 11) { Month = "November"} 
+if (Month == 12) { Month = "December"} 
+if (Month > 12) {Month = Month-11}
+
+ 	if (Hour > 23) {
+ 		Hour = Hour-24;
+ 		Day =  Day + 1;}
+
+	response = "It's " + Month + " " + Day + "th " + Hour + ":"+  Min;
+
+	document.getElementById("response").innerHTML = response;
+ }
+
+ function NY () {
+
+ 	var Hour = 12;
+ 	var Min = 41;
+ 	var Day = 5;
+ 	var Month = 5;
+ 	var Year = 2023;
+
+ 	Hour = Hour + 3;
+
+ if (Month == 1) { Month = "January"}
+ if (Month == 2) { Month = "February"}  
+ if (Month == 3) { Month = "March"} 
+ if (Month == 4) { Month = "April"} 
+ if (Month == 5) { Month = "May"} 
+ if (Month == 6) { Month = "June"} 
+ if (Month == 7) { Month = "July"} 
+ if (Month == 8) { Month = "August"} 
+if (Month == 9) { Month = "September"} 
+if (Month == 10) { Month = "October"} 
+if (Month == 11) { Month = "November"} 
+if (Month == 12) { Month = "December"} 
+if (Month > 12) {Month = Month-11}
+
+ 	if (Hour > 23) {
+ 		Hour = Hour-24;
+ 		Day =  Day + 1;}
+
+	response = "It's " + Month + " " + Day + "th " + Hour + ":"+  Min;
+
+	document.getElementById("response").innerHTML = response;
+ }
+ 
+
+
+
+</script>
+</html>
+
