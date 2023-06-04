@@ -1,0 +1,289 @@
+.title { /* makes the main header have a darker and circular backdrop with lighter text and an even darker shadow for both the text and box*/
+	text-align: center;
+	color: #9EC1A3;
+	font-size: 70px;
+	background-color: #294851;
+	border-radius: 40%;
+	box-shadow: 4px 4px 2px #1F363D;
+	text-shadow: 4px 4px 2px #1F363D;
+}
+
+td.Nav { /* the stylistic devices for each section of the navigation bar*/
+
+	background-color: #9EC1A3;
+	font-size: 40px;
+	margin: 0px;
+	padding : 0px;
+	color: #1F363D; 
+	text-align: center;
+	border: solid 2px;
+	text-shadow: 2px 2px 1px #CFE0C3;
+	
+	
+}
+
+#dropdown-content{ /* I gave the dropdown content a darker backdrop with a darker border and lighter text with a darker shadow */
+	font-size: 15px;
+	display: none;
+	padding: 0;
+	margin: 1;
+	border: hidden;
+	column-width: 100%;
+	text-align: center;
+	color: #A6C9C5;
+	background-color: #40798C;
+	font-size: 20px;
+	border: solid 3px;
+	border-color: #1F363D;
+	text-shadow: 2px 3px 4px #1F363D;
+	border-radius: 5px;
+	box-shadow: 1px 1px #1F363D;
+
+}
+
+#dropdown{ /* changed the general and entire navigation bar to have 5px padding, the rest was unnecessary -_- */
+	font-size: 40px;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+
+
+}
+ 
+
+
+#dropdown-content1{ /* I gave the dropdown content a darker backdrop with a darker border and lighter text with a darker shadow */
+	font-size: 15px;
+	display: none;
+	padding: 0;
+	margin: 1;
+	border: hidden;
+	column-width: 100%;
+	text-align: center;
+	color: #A6C9C5;
+	background-color: #40798C;
+	font-size: 20px;
+	border: solid 3px;
+	border-color: #1F363D;
+	text-shadow: 2px 3px 4px #1F363D;
+	border-radius: 5px;
+	box-shadow: 1px 1px #1F363D;
+
+
+
+}
+
+#dropdown-content2{ /* I gave the dropdown content a darker backdrop with a darker border and lighter text with a darker shadow */
+	font-size: 15px;
+	display: none;
+	padding: 0;
+	margin: 1;
+	border: hidden;
+	column-width: 100%;
+	text-align: center;
+	color: #A6C9C5;
+	background-color: #40798C;
+	font-size: 20px;
+	border: solid 3px;
+	border-color: #1F363D;
+	text-shadow: 2px 3px 4px #1F363D;
+	border-radius: 5px;
+	box-shadow: 1px 1px #1F363D;
+
+
+	}
+
+#dropdown-content3{ /* I gave the dropdown content a darker backdrop with a darker border and lighter text with a darker shadow */
+	font-size: 15px;
+	display: none;
+	padding: 0;
+	margin: 1;
+	border: hidden;
+	column-width: 100%;
+	text-align: center;
+	color: #A6C9C5;
+	background-color: #40798C;
+	font-size: 20px;
+	border: solid 3px;
+	border-color: #1F363D;
+	text-shadow: 2px 3px 4px #1F363D;
+	border-radius: 5px;
+	box-shadow: 1px 1px #1F363D;
+	}
+
+#dropdown-content4{ /* I gave the dropdown content a darker backdrop with a darker border and lighter text with a darker shadow */
+	font-size: 15px;
+	display: none;
+	padding: 0;
+	margin: 1;
+	border: hidden;
+	column-width: 100%;
+	text-align: center;
+	color: #A6C9C5;
+	background-color: #40798C;
+	font-size: 20px;
+	border: solid 3px;
+	border-color: #1F363D;
+	text-shadow: 2px 3px 4px #1F363D;
+	border-radius: 5px;
+	box-shadow: 1px 1px #1F363D;
+	}
+
+#dropdown-content5{ /* I gave the dropdown content a darker backdrop with a darker border and lighter text with a darker shadow */
+	font-size: 15px;
+	display: none;
+	padding: 0;
+	margin: 1;
+	border: hidden;
+	column-width: 100%;
+	text-align: center;
+	color: #A6C9C5;
+	background-color: #40798C;
+	font-size: 20px;
+	border: solid 3px;
+	border-color: #1F363D;
+	text-shadow: 2px 3px 4px #1F363D;
+	border-radius: 5px;
+	box-shadow: 1px 1px #1F363D;}
+
+#dropdown-content6{ /* I gave the dropdown content a darker backdrop with a darker border and lighter text with a darker shadow */
+	font-size: 15px;
+	display: none;
+	padding: 0;
+	margin: 1;
+	border: hidden;
+	column-width: 100%;
+	text-align: center;
+	color: #A6C9C5;
+	background-color: #40798C;
+	font-size: 20px;
+	border: solid 3px;
+	border-color: #1F363D;
+	text-shadow: 2px 3px 4px #1F363D;
+	border-radius: 5px;
+	box-shadow: 1px 1px #1F363D;}
+
+#dropdown-content7{ /* I gave the dropdown content a darker backdrop with a darker border and lighter text with a darker shadow */
+	font-size: 15px;
+	display: none;
+	padding: 0;
+	margin: 1;
+	border: hidden;
+	column-width: 100%;
+	text-align: center;
+	color: #A6C9C5;
+	background-color: #40798C;
+	font-size: 20px;
+	border: solid 3px;
+	border-color: #1F363D;
+	text-shadow: 2px 3px 2px #1F363D;
+	border-radius: 5px;
+	box-shadow: 1px 1px #1F363D;}
+
+
+.Scroll { /* For the scroll of images, I made it overflow in the y (height) direction*/
+overflow-y: scroll;
+height: 700px;
+text-align: center;
+background-color: #70A9A1;
+color: #1F363D;
+border: solid 3px;
+  
+ outline: 2px solid #CFE0C3; /* The outline is an inner border done to make it stand out more, purely for stylistic purposes*/
+ outline-offset: -7px; /* This determines how far it would be away from the other border*/
+border-radius: 30px;
+text-shadow: 2px 2px 1px #CFE0C3;
+ }
+
+.yup { /* Styles for each table data for the table within the table*/
+	text-align: left;
+	font-size: 25px;
+	color: #294851;
+	text-shadow: 2px 1px 1px #9AC1BC;
+}
+
+.yep { /* no border for the entire table */
+	border: none;
+}
+
+.sup { /* styles for the entireeee table, it has another table within*/
+	
+	font-size: 40px;
+	margin: 0px;
+	padding : 0px;
+	color: #003c00; 
+	text-align: center;
+
+
+}
+
+.historyLink:visited { /* if the link is visited then there is no text decoration and the color remains the same*/
+	color: #003c00; 
+	text-decoration: none;
+}
+
+.historyLink:link { /* if the link is just a link in general then it follows these rules */
+	color: #003c00; 
+	text-decoration: none;
+}
+
+
+.SurveyTitle { /* The stylistic devices for the header of the survey*/
+color: #1F363D;	
+text-shadow: 2px 2px 1px #CFE0C3;
+margin: 0px;
+
+}
+
+.Survey { /* The survey embodies both the header and the description, it's the entire form. Just like the left side of the table, the section has an outline to follow the common style/style theme. */
+background-color: #70A9A1;
+border: solid 3px;
+  
+ outline: 2px solid #CFE0C3;
+ outline-offset: -7px;
+border-radius: 30px;
+width: 70%;	
+float: right;
+ 
+}
+
+.SurveyDescription{ /* the styles for the info and topic of this survey, margin done for centuring*/
+	color: #223C44;	
+text-shadow: 1px 1px 1px #C9DCBC;
+margin: 25px;
+}
+
+
+.Button { /* The button is animated the font is a bit bigger and has a different font (serif) the background color remains steady but similar to the theme.*/
+	font-size: 50px;
+	font-family: serif;
+	background-color: #B3D1CD;
+	border-top-color: #1B3036;
+	border-left-color: #1B3036;
+	border-bottom-color: #1B3036;
+	border-right-color: #1B3036;
+	color: #223D44;
+	animation-name: anime; /* Animation name is called anime and it is set to happen A LOT of times*/
+	animation-iteration-count: 1000000000000000000;
+	animation-duration: 4s; /* duration time */
+}
+
+
+@keyframes anime {
+	0% {border-color: #1B3036;} /* border color starts at original, then changes and then goes back to original to prevent it from having a hard cut*/
+  50% {border-color: white;}
+  100% {border-color: #1B3036;}
+
+}
+
+#result { /* this is the content that changes depending on the checked radio box for the survey. it has some common stylistic devices to match the common theme.*/
+	font-size: 30px;
+	color: #223C44;
+	border-radius: 10px;
+	background-color: #9AC1BC;
+	border: hidden 2px;
+	box-shadow: 1px 1px 3px #1F363D;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+

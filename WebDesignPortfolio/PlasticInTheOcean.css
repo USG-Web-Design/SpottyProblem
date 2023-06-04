@@ -1,0 +1,46 @@
+.title { /* for main header */
+	font-family: Marker Felt; 
+	text-align: center; 
+	font-size: 120; color: #093C5C;
+}
+
+.SadFacts { /*  changes the color and size and font type*/
+	font-family: American Typewriter; font-size: 60; color: 0D496F;
+
+}
+
+ul { /* changes size and color to match the style*/
+	font-size: 30; color: 125F8F;
+}
+
+.Route { /*  changes the color and size and font type*/
+	font-family: American Typewriter; font-size: 60; color: 0D496F;
+}
+
+
+
+.Progression { /*  changes the color and size and font type*/
+	font-family: American Typewriter; font-size: 60; color: 0D496F;
+}
+
+p { /* changes size and color to match the style*/
+	font-size: 25; color: 125F8F;
+}
+
+.Media { /*  changes the color and size and font type*/
+	font-family: American Typewriter; font-size: 60; color: 0D496F;
+}
+
+.dropdown { /*  changes the color and size and font type*/
+	font-family: American Typewriter; font-size: 40; color: 0D496F; 
+}
+
+.dropdown-content { /* for dropdown of citations this is hidden */
+	display: none; font-size: 25; color: 125F8F;
+}
+
+.dropdown:hover .dropdown-content { /* on hover show the content */
+	display: block;
+}
+
+

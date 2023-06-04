@@ -1,0 +1,301 @@
+.title { /* Header of page changes to have a yellow background with a circular border and shadow. the margin brings in the border to not be full width */
+	color: #432C0F;
+	text-align: center;
+	font-size: 70px;
+	background-color: #ECC568;
+	border-radius: 50px;
+	text-shadow: 3px 3px 4px #6C4F21;
+	box-shadow: 3px 3px 4px;
+	padding-right: 180px;
+	padding-left: 180px;
+	margin-left: 180px;
+	margin-right: 180px;
+
+}
+
+.Info { /* info of the page and it has a text and box shadow, the box shadow is a transition on hover */
+	color: #432C0F;
+	text-align: center;
+	font-size: 20px;
+	background-color: #ECC568;
+	text-shadow: 1px 1px 1px #6C4F21;
+	box-shadow: 10px 10px 6px #6C4F21;
+  	transition: box-shadow 1s;
+}
+
+.Info:hover { /* transition for box shadow of info section on hover*/
+  box-shadow: 1px 1px 10px 10px #6C4F21;
+
+
+}
+
+.timeline { /* Styles of the timeline image. Has box shadow with color, the border radius is at 10% for it not to be too noticable and round.*/
+	border-style: solid;
+	border-color: #6C4F21;
+	border-width: 3px;
+	background-color: #F1D07F;
+	box-shadow: 5px 5px 3px #6C4F21;
+	border-radius: 10%;
+
+}
+
+.table { /* Just to make the table symmetrical*/
+	width: 100%;
+	
+	text-align: center;
+}
+
+div.polaroid { /* box shadow set to be surrounding the entire polaroid div*/
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 10%;
+  margin-left: 110px;
+}
+
+div.container { /* for text only */
+  padding: 10px;
+  background-color: #ECC568;
+  color: #6C4F21;
+  font-size: 40px;
+}
+
+div.polaroid2 { /* box shadow set to be surrounding the entire polaroid div*/
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 10%;
+  margin-left: 110px;
+}
+
+div.container2 { /* for text only */
+  padding: 10px;
+  background-color: #ECC568;
+  color: #6C4F21;
+  font-size: 40px;
+}
+
+div.polaroid3 { /* box shadow set to be surrounding the entire polaroid div. */
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 110px;
+}
+
+div.container3 { /* for text only */
+  padding: 10px;
+  background-color: #ECC568;
+  color: #6C4F21;
+  font-size: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: none;
+}
+
+.Web3Info{ /* Visibility used so the cards with less and more text don't make the polaroid div at a different height*/
+	visibility: hidden;
+}
+
+div.polaroid3:hover + .Web3Info{ /* On hover, visibility is visible so it's a dropdown*/
+	visibility: visible;}
+
+
+.Web2Info{ /* Visibility used so the cards with less and more text don't make the polaroid div at a different height*/
+	visibility: hidden;
+}
+
+div.polaroid2:hover + .Web2Info{ /* On hover, visibility is visible so it's a dropdown*/
+	visibility: visible;
+}
+
+
+.Web1Info{
+	visibility: hidden;
+	background-color: #F1D07F;
+	width: 55%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #6C4F21;
+	border-radius: 5%;
+	margin-left: 110px;
+
+}
+
+div.polaroid:hover + .Web1Info{ /* On hover, visibility is visible so it's a dropdown*/
+	visibility: visible;
+}
+
+.Web2Info{ /* Visibility used so the cards with less and more text don't make the polaroid div at a different height and here are other stylistic features to make it look good*/
+	visibility: hidden;
+	background-color: #F1D07F;
+	width: 63%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #6C4F21;
+	border-radius: 5%;
+	margin-left: 110px;
+}
+
+
+
+.Web3Info{ /* Visibility used so the cards with less and more text don't make the polaroid div at a different height. yes, visibility is double for web2info and web3info, but it works so it's fine */
+	visibility: hidden;
+	background-color: #F1D07F;
+	width: 45%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #6C4F21;
+	border-radius: 5%;
+	margin-left: 110px;
+
+}
+
+.arrow{ /* animation for the arrow. Used margin so that it moves.*/
+
+	animation-name: arrow;
+	animation-duration: 5s;
+	animation-iteration-count: 100000000000000000;
+}
+
+@keyframes arrow { /* It goes from 0 to 1000 pixels in 5 seconds.*/
+	0% {margin-left: 0px;}
+  100% {margin-left: 1000px;}
+
+
+
+}
+
+.FactsHead { /* header centralized and styled*/
+	text-align: center;
+	color: #432C0F;
+	font-size: 40px;
+}
+
+.FactsList { /* text aligned center and the list style position set inside*/
+	text-align: center;
+	list-style-position: inside;
+	color: #6C4F21;
+	font-size: 23px;
+
+}
+
+.Left { /*  dispklay set to inline block so that the text moves left but not the entire section*/
+	display: inline-block;
+	text-align: left;
+
+}
+
+.AllFacts { /* Entire facts section styled with same transition as the info class*/
+	color: #432C0F;
+	background-color: #ECC568;
+	text-shadow: 1px 1px 1px #6C4F21;
+	box-shadow: 10px 10px 6px #6C4F21;
+	margin-left: 300px;
+	margin-right: 300px;
+	transition: box-shadow 1s;
+}
+
+.AllFacts:hover {
+  box-shadow: 1px 1px 10px 10px #6C4F21; }
+
+.Button { /* The button is animated the font is a bit bigger and has a different font (serif) the background color remains steady but similar to the theme.*/
+	font-size: 50px;
+	font-family: serif;
+	background-color: #E9B949;
+	border-top-color: #432C0F;
+	border-left-color: #432C0F;
+	border-bottom-color: #432C0F;
+	border-right-color: #432C0F;
+	color: #432C0F;
+	animation-name: anime; /* Animation name is called anime and it is set to happen A LOT of times*/
+	animation-iteration-count: 1000000000000000000;
+	animation-duration: 4s; /* duration time */
+}
+
+
+@keyframes anime {
+	0% {border-color: #432C0F;} /* border color starts at original, then changes and then goes back to original to prevent it from having a hard cut*/
+  50% {border-color: #F1D07F;}
+  100% {border-color: #432C0F;}
+
+}
+
+.Object {
+	color: #432C0F;
+	text-align: center;
+	font-size: 20px;
+	background-color: #ECC568;
+	text-shadow: 1px 1px 1px #6C4F21;
+	box-shadow: 1px 2px 10px 6px #6C4F21;
+  transition: box-shadow 1s;
+  margin-left: 260px;
+  margin-right: 260px;
+ 
+
+}
+
+.Object:hover { /* transition for box shadow of javascript object section on hover*/
+  box-shadow: 1px 1px 10px 10px #6C4F21;
+}
+
+.dropdown-content {
+	display: none;
+	color: #432C0F;
+	background-color: #ECC568;
+	text-shadow: 1px 1px 1px #6C4F21;
+	box-shadow: 1px 2px 10px 6px #6C4F21;
+  transition: box-shadow 1s;
+  margin-left: 315px;
+  margin-right: 315px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.Link:visited { /* if the link is visited then there is no text decoration and the color remains the same*/
+	color: #432C0F; 
+	text-decoration: none;
+	background-color: #ECC568;
+	text-align: center;
+	font-size: 20px;
+	background-color: #ECC568;
+	text-shadow: 1px 1px 1px #6C4F21;
+	box-shadow: 1px 2px 10px 6px #6C4F21;
+  transition: box-shadow 1s;
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+.Link:link { /* if the link is just a link in general then it follows these rules */
+	color: #432C0F; 
+	text-decoration: none;
+	background-color: #ECC568;
+	text-align: center;
+	font-size: 20px;
+	background-color: #ECC568;
+	text-shadow: 1px 1px 1px #6C4F21;
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+.cite { /* Citation header changes to have a yellow background with a circular border and shadow. the margin brings in the border to not be full width */
+	color: #432C0F;
+	text-align: center;
+	font-size: 70px;
+	background-color: #ECC568;
+	border-radius: 50px;
+	text-shadow: 3px 3px 4px #6C4F21;
+	box-shadow: 3px 3px 4px;
+	padding-right: 180px;
+	padding-left: 180px;
+	margin-left: 180px;
+	margin-right: 180px;
+	}
+
+
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropdown{
+
+	display: block;
+}

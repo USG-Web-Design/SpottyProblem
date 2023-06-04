@@ -1,0 +1,52 @@
+<hmtl>
+	<body>
+		<h1 id="1" onmouseover="Roar()"> Hover her for a suprise</h1>
+		<p id="2"></p>
+		<p id="3"></p>
+
+	</body>
+
+<script type="text/javascript">
+
+		class Dinosaur {
+
+			constructor(n, p, s, t, c) {
+				this.name = n;
+				this.period = p;
+				this.species = s;
+				this.toeNumber = t;
+				this.carnivore = c;
+			}
+			getName() {
+				return this.name;
+			}
+			getToeNumber() {
+				return this.toeNumber;
+			}
+			rawr() {
+				window.alert("RAWWWWWWWWWWWRR SCARY DINO")
+			}
+			loseToe() {
+				this.toeNumber = this.toeNumber - 1;
+			}
+		}
+		
+const chicken = new Dinosaur("Jaein", "Agricultural Era", "Gallus Gallus Domesticus", 3, true);
+
+document.getElementById("2").innerHTML = chicken.getName();
+document.getElementById("3").innerHTML = chicken.getToeNumber();
+
+function Roar () {
+	chicken.rawr()
+	chicken.loseToe()
+	document.getElementById("3").innerHTML = chicken.getToeNumber();
+}
+
+
+
+
+
+
+
+</script>
+</hmtl>

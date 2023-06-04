@@ -1,0 +1,74 @@
+
+<html>
+<p id="demo"> </p>
+<br>
+<body>
+<button onclick="Tok();"> <img src="Tokyo.jpeg"> </button>
+	<br>
+<button onclick="Lon()"> <img src="London.jpeg"> </button>
+	<br>
+<button onclick="NY()"> <img src="NYC.jpeg"> </button>
+<button onclick="showTime()"> Show the Time</button>
+
+</body>
+<script type="text/javascript">
+	const clock = {
+		day: "may 5th \"play\"",
+		minutes:15,
+		hour:11,
+		london: function() {
+			this.hour = this.hour + 8;
+		},
+		seoul: function() {
+			this.hour = this.hour + 16;
+		},
+		paris: function() {
+			this.hour = this.hour + 9;
+		},
+		resetTime: function() {
+			this.day = "may 5th";
+			this.hour = 11;
+
+		},
+		checkTime: function () {
+			if (this.hour > 23) {
+				this.hour = this.hour - 24;
+				this.day = "may 6th";
+		}
+	},
+
+		updateTime: function {
+			this.checkTime();
+			return "hello"
+			//return "Today is " + this.day + ", currently the time is: " + this.hour.toString() + ":" + this.minutes.toString();
+		}
+
+
+	};
+
+window.alert("work")
+	function showTime() {
+	document.getElementById("demo").innerHTML = clock.updateTime();
+	clock.resetTime();
+
+	}
+
+	function Lon() { 
+	clock.london();
+
+	showTime();
+	}
+	function Tok() { 
+	clock.seoul();
+
+	showTime();
+	}
+
+	function NY() { 
+	clock.paris();
+
+	showTime();
+}
+
+</script>
+</html>

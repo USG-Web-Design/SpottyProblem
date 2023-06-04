@@ -1,0 +1,38 @@
+.title { /* for main header */
+	font-family: fantasy;
+	color: #244022;
+	font-size: 90px;
+	text-align: center;
+}
+
+.FunFacts { /* for fun facts text*/
+	color: #2b452a;
+
+}
+
+ul {color: #374f36 ;
+	font-size: 20px ;
+}/* for general unordered lists*/
+
+.LifeCycle { /* changes color of the life cycle class text*/
+	color: #2b452a;
+}
+
+ol {color: #374f36 ; /* changes color and font-size*/
+	font-size: 20px ;}
+
+.Habitat { /* changes the color to fit the theme*/
+	color: #2b452a;
+}
+
+p{color: #374f36 ;
+	font-size: 20px ;
+}
+
+.Media { /* changes color to fit the rest*/
+	color: #2b452a;
+}
+
+.Cites {
+	color: #2b452a;
+}

@@ -1,0 +1,344 @@
+
+
+
+.navi{
+
+	background-color: ##d6e3ca;
+	font-size: 40px;
+	margin: 0px;
+	padding : 15px;
+	
+	}
+	
+
+.navi a{
+
+	color: #003c00; 
+	text-decoration: none;
+	padding: 8.2%;
+	text-align: center;
+	
+}
+
+.homepg{
+
+	background-color: rgba(255, 255, 255, .13);
+	border-left: solid;
+	border-left-width: 30px;
+	border-color: rgba(255,255,255,.7);
+	padding: 20px;
+	margin: 50px;
+	text-align: left;
+	font-family: Simple Print;
+	font-size: 50 px;
+}
+
+.images{
+
+	background-color: rgba(214, 227, 202, .7);
+	border-right: solid;
+	border-right-width: 10px;
+	border-color: rgba(214,227,202,.7);
+	padding: 20px;
+	margin: 50px;
+	font-family: Simple Print;
+
+
+}
+
+.three{
+
+	background-color: rgba(0, 5, 103, .5);
+	border-right: solid;
+	border-right-width: 10px;
+	border-color: rgba(0,55,126,.7);
+	padding: 20px;
+	margin: 50px;
+	font-family: Simple Print;
+	text-align: left;
+
+}
+
+.fbf{
+
+	background-color: rgba(104, 0, 122, .4);
+	border-left: solid;
+	border-left-width: 10px;
+	border-color: rgba(110,0,110,.7);
+	padding: 20px;
+	margin: 50px;
+	font-family: Simple Print;
+	text-align: left;
+
+}
+.pp{
+	background-color: rgba(30, 63, 31, .4);
+	border-right: solid;
+	border-right-width: 10px;
+	border-color: rgba(30,63,31,.7);
+	padding: 20px;
+	margin: 50px;
+	font-family: Simple Print;
+	text-align: left;
+}
+
+.scr{
+
+  	padding: 10px;
+  	overflow-y: scroll;
+  	align-self: center;
+  	width: 100%;
+  	height: 600px;
+}
+
+
+.Attr{
+
+	background-color: rgba(0, 0, 0, .7);
+	border-left: solid;
+	border-left-width: 10px;
+	border-color: rgba(255,255,255,.8);
+	padding: 20px;
+	margin: 50px;
+	text-align: left;
+	font-family: Simple Print;
+}
+
+.nav{
+	border: solid;
+	border-color: #003c00;
+	width: 350px;
+	text-decoration: none;
+}
+
+.general{
+
+	border: solid;
+	border-color: tomato;
+	padding: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.general1{
+
+	border: solid;
+	border-color: tomato;
+	padding: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 40px;
+}
+
+.general2{
+
+	border: solid;
+	border-color: tomato;
+	padding: none;
+	padding-left: none;
+	padding-right: none;
+
+}
+
+
+
+td{
+
+	border: solid;
+	border-color: antiquewhite;
+	padding-left: 22px;
+	padding-right: 22px;
+
+}
+
+.sup{
+
+	border: solid;
+	border-color: antiquewhite;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.sups{
+
+	border: solid;
+	border-color: antiquewhite;
+	padding: none;
+	padding-left: none;
+	padding-right: none;
+	margin-right: none;
+	margin-left: none;
+	margin-bottom: none;
+	margin-top: none;
+
+}
+
+.super{
+
+	border: solid;
+	border-color: antiquewhite;
+	padding: none;
+	padding-left: none;
+	padding-right: none;
+	margin-right: none;
+	margin-left: none;
+	margin-bottom: none;
+	margin-top: none;
+}
+
+.supl{
+
+	border: solid;
+	border-color: antiquewhite;
+	padding: none;
+	padding-left: none;
+	padding-right: none;
+	margin-right: none;
+	margin-left: none;
+	margin-bottom: none;
+	margin-top: none;
+	font-size: 20px;
+	overflow-y: scroll;
+	height: 200px;
+}
+
+body{
+
+	font-family: BigNoodleTitling;
+	font-size: 40px;
+	color: white;
+	margin: 0px;
+	padding : 0px;
+	background-size: 100%;
+
+}
+
+h1{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+
+}
+
+
+
+
+ul{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+li:hover{
+	background-color: rgba(0,0,0,.4);
+}
+
+li{
+	color: white;
+	padding: 10px;
+	background-color: rgba(0,0,0,.4);
+	font-family: Saker Sans Medium PERSONAL USE;
+	font-size: 35px;
+	text-decoration: none;
+	text-align: left;
+}
+
+.sss{
+
+	color: white;
+	padding: 10px;
+	background-color: rgba(0,0,0,.4);
+	font-family: Simple Print;
+	font-size: 45px;
+	text-decoration: none;
+
+}
+
+ol{
+	background-color: rgba(0,0,0,.4);
+	
+}
+
+.dropdown-content{
+	font-size: 15px;
+	display: none;
+	padding: 0;
+	margin: 1;
+}
+
+
+.dropdown:hover{
+	background-color: rgba(0,0,0,.4);
+
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+	font-family: B612;
+	color: white;
+	
+
+}
+
+.yurt {
+	list-style-type: circle;
+	color: white;
+	text-decoration: none;
+}
+
+.top {
+  
+  display: block;
+  margin: 45px;
+  padding: 45px;
+  background-image:url("Day.png");
+  position: relative;'
+  width: 400px;
+  height: 267px;
+  background-repeat: no-repeat;
+  
+  
+  
+
+  animation-name: Top;
+  animation-timing-function: linear;
+  animation-duration: 2.0s;
+  animation-iteration-count: 100000;
+ 
+}
+
+@keyframes Top {
+  0% {font-size: 0px; background-image: url("Day.png");}
+  100% {font-size: 0px; background-image: url("Night.jpeg");}
+}
+
+.Wash {
+	background-color: rgba(0,0,0,.4); 
+}
+
+.Fall {
+
+  
+  display: block;
+  margin: 45px;
+  padding: 45px;
+  background-image:url("SummerFall.jpeg");
+  position: relative;'
+  width: 400px;
+  height: 267px;
+  background-repeat: no-repeat;
+  
+  
+  
+
+  animation-name: Fall;
+  animation-timing-function: linear;
+  animation-duration: 2.0s;
+  animation-iteration-count: 100000;
+ 
+}
+
+@keyframes Fall {
+  0% {font-size: 0px; background-image: url("SummerFall.jpeg");}
+  100% {font-size: 0px; background-image: url("WinterFall.jpeg");}

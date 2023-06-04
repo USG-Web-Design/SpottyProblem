@@ -1,0 +1,286 @@
+div{
+	text-align: center; 
+}
+
+.navi{ /* for the navigation in general*/
+
+	background-color: black;
+	font-size: 40px;
+	margin: 0px;
+	padding : 15px;
+
+}
+
+
+.navi a{ /* for each anchor in the navigation bar */
+
+	color: white;
+	text-decoration: none;
+	padding: 8.2%;
+	text-align: center;
+
+}
+
+.homepg{
+
+	background-color: rgba(255, 255, 255, .13); /* gives the border a bit thicker on the left hand side */
+	border-left: solid;
+	border-left-width: 10px;
+	border-color: rgba(255,255,255,.7);
+	padding: 20px;
+	margin: 50px;
+	text-align: left;
+	font-family: Simple Print;
+}
+
+.images{ /* images on home page  and they have border with background color which is a bit transparent and margins and padding*/
+
+	background-color: rgba(84, 11, 14, .7);
+	border-right: solid;
+	border-right-width: 10px;
+	border-color: rgba(157,2,8,.7);
+	padding: 20px;
+	margin: 50px;
+	font-family: Simple Print;
+
+
+}
+
+.three{ /* this is for the books trilogy and it gives it color and aligns it on the page by using text align, padding, and margin*/
+
+	background-color: rgba(0, 5, 103, .5);
+	border-right: solid;
+	border-right-width: 10px;
+	border-color: rgba(0,55,126,.7);
+	padding: 20px;
+	margin: 50px;
+	font-family: Simple Print;
+	text-align: left;
+
+}
+
+.fbf{ /* this is for the books fazbear frights and it's similar to the one above just slightly different colors*/
+
+	background-color: rgba(104, 0, 122, .4);
+	border-left: solid;
+	border-left-width: 10px;
+	border-color: rgba(110,0,110,.7);
+	padding: 20px;
+	margin: 50px;
+	font-family: Simple Print;
+	text-align: left;
+
+}
+.pp{ /* this is for the pizzaplex section on the books html and is almost identical to the two above*/
+	background-color: rgba(30, 63, 31, .4);
+	border-right: solid;
+	border-right-width: 10px;
+	border-color: rgba(30,63,31,.7);
+	padding: 20px;
+	margin: 50px;
+	font-family: Simple Print;
+	text-align: left;
+}
+
+.scr{ /* overflow-y done to give it the scroll function if it surpasses a certain pixel amount by height*/
+
+  	padding: 10px;
+  	overflow-y: scroll;
+  	align-self: center;
+  	width: 100%;
+  	height: 600px;
+}
+
+
+.Attr{ /* this is for the main attributes table at the home page and has these styles */
+
+	background-color: rgba(0, 0, 0, .7);
+	border-left: solid;
+	border-left-width: 10px;
+	border-color: rgba(255,255,255,.8);
+	padding: 20px;
+	margin: 50px;
+	text-align: left;
+	font-family: Simple Print;
+}
+
+.nav{ /* border is solid and color is white with a width of 350px, just some styles to make it look better*/
+	border: solid;
+	border-color: antiquewhite;
+	width: 350px;
+}
+
+.general{ /* these are the styles for the table of attributes on the home page for just the th (table header)*/
+
+	border: solid;
+	border-color: tomato;
+	padding: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.general1{ /* these are the styles for the table of attributes on the home page for just the th (table header)*/
+
+	border: solid;
+	border-color: tomato;
+	padding: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 40px;
+}
+
+.general2{ /* used in mainChar file for the table header named description*/
+
+	border: solid;
+	border-color: tomato;
+	padding: none;
+	padding-left: none;
+	padding-right: none;
+
+}
+
+
+
+td{ /* general theme for each table data*/
+
+	border: solid;
+	border-color: antiquewhite;
+	padding-left: 22px;
+	padding-right: 22px;
+
+}
+
+.sup{ /* these are all for the main character file with the table*/
+
+	border: solid;
+	border-color: antiquewhite;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.sups{ /* these are all for the main character file with the table*/
+
+	border: solid;
+	border-color: antiquewhite;
+	padding: none;
+	padding-left: none;
+	padding-right: none;
+	margin-right: none;
+	margin-left: none;
+	margin-bottom: none;
+	margin-top: none;
+
+}
+
+.super{ /* these are all for the main character file with the table*/
+
+	border: solid;
+	border-color: antiquewhite;
+	padding: none;
+	padding-left: none;
+	padding-right: none;
+	margin-right: none;
+	margin-left: none;
+	margin-bottom: none;
+	margin-top: none;
+}
+
+.supl{ /* these are all for the main character file with the table*/
+
+	border: solid;
+	border-color: antiquewhite;
+	padding: none;
+	padding-left: none;
+	padding-right: none;
+	margin-right: none;
+	margin-left: none;
+	margin-bottom: none;
+	margin-top: none;
+	font-size: 20px;
+	overflow-y: scroll;
+	height: 200px;
+}
+
+body{ /* General stuff for the body*/
+
+	font-family: BigNoodleTitling;
+	font-size: 40px;
+	color: white;
+	margin: 0px;
+	padding : 0px;
+	background-size: 100%;
+
+}
+
+h1{ /* general styling for headers unless overruled through classes*/
+	color: white;
+	font-size: 60px;
+	text-align: center;
+}
+
+
+
+
+ul{ /* unordered lists follow these styles*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+li:hover{ /* on hover the citation appear*/
+	background-color: rgba(0,0,0,.4);
+}
+
+li{ /* for citations primarily*/
+	color: white;
+	padding: 10px;
+	background-color: rgba(0,0,0,.4);
+	font-family: Saker Sans Medium PERSONAL USE;
+	font-size: 35px;
+	text-decoration: none;
+}
+
+.sss{ /* for each list in the timeline, overules the general li css*/
+
+	color: white;
+	padding: 10px;
+	background-color: rgba(0,0,0,.4);
+	font-family: Simple Print;
+	font-size: 45px;
+	text-decoration: none;
+
+}
+
+ol{ /* general stuff for numbered list*/
+	background-color: rgba(0,0,0,.4);
+	
+}
+
+.dropdown-content{ /* dropdown content (whatever is hidden unless hovered*/
+	font-size: 15px;
+	display: none;
+	padding: 0;
+	margin: 1;
+}
+
+
+.dropdown:hover{ /* on hover show background color change*/
+	background-color: rgba(0,0,0,.4);
+
+}
+
+.dropdown:hover .dropdown-content{ /* this is where the content is shown*/
+	display: block;
+	font-family: B612;
+	color: white;
+	
+
+}
+
+.yurt { /* for the styling of the others.html file */
+	list-style-type: circle;
+	color: white;
+	text-decoration: none;
+}
